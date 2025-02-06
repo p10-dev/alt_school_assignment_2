@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Page</title>
+</head>
+<body>
+    <h1>My Media Page</h1>
+    <p>Below is a multimedia representation of my journey and experiences.</p>
+    
+    <picture>
+        <source srcset="laptop.jpg" media="(min-width: 1024px)">
+        <source srcset="tablet.jpg" media="(min-width: 768px)">
+        <source srcset="mobile.jpg" media="(max-width: 767px)">
+        <img src="default.jpg" alt="My Journey">
+    </picture>
+    
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
